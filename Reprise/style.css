@@ -1,0 +1,63 @@
+body
+	{
+	background-image: url("le_monde_logo.png");
+	background-repeat : no-repeat;
+	background-position :top right;
+	background-attachment: fixed; 
+	}
+
+@font-face 
+	{
+    font-family: 'Pacifico';
+    src: url('fonts/Pacifico.ttf'); }
+
+h1
+	{text-align: center;}
+h1	
+	{font-family: 'Pacifico';}
+h1
+	{font-size: 2em}
+h1	
+{color: red}
+
+p
+	{text-align: justify;}
+p	
+	{font-family: times new roman;}
+p
+	{font-size: 1em}
+	
+h1
+{
+	border: double;
+	border-radius:10px;
+	box-shadow: 6px 6px 6px black
+}
+
+a:hover
+{
+	background-color: red;	
+}
+
+.auteur
+{
+	text-align: center;
+	font-style: italic;
+}	
+.intervention
+{
+	color:grey;
+	font-weight: bold;
+}
+
+.citation
+{font-style: italic;}
+
+
+.imageflottante
+{float: left;}
+
+.titrephoto
+{text-align: center;}
+
+
